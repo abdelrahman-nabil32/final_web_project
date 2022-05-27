@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Knowledge</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Koulen&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!--                Start welcome page                -->
+    <div id="welcome">
+        <h1>Welcome to Knowledge</h1>
+        <p>This website is an educational website where there is a lot of information about various sciences.</p>
+        <div id="hepardiv">
+            <div>
+                <a href="#login" class="button" id="welcome_login">Login</a>
+            </div>
+            <div>
+                <a href="#createaccount" class="button" id="welcome_signup">Sign Up</a>
+            </div>
+        </div>
+    </div>
+    <!--                end welcome page                   -->
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <!-- start login and sign up page-->
+    <div id="kilog">
+        <div id="container">
+            <!-- Start login page  -->
+            <form class="form " id="login" action="">
+                <h1 id="form_title">Login</h1>
+                <div class="form_input-group">
+                    <input type="text" class="form_input email_forfor_login" name="Email_login" placeholder="E-mail">
+                    <div class="form_input-error-message form-hidden error_email_login_requirementss">This field is
+                        required</div>
+                    <div class="form_input-error-message form-hidden error_email_login_pattern">Sorry, your email input
+                        isn't correct,<br>Please follow this pattern:<br>
+                        "name_namefourdigits@feng.bu.edu.eg"</div>
+                </div>
+                <div class="form_input-group">
+                    <input type="password" class="form_input password_forfor_login" name="password_login"
+                        placeholder="Password">
+                    <div class="form_input-error-message form-hidden error_password_requirement_login">This field is
+                        required</div>
+                    <div class="form_input-error-message form-hidden error_password_uppercase_login">Password must start
+                        with uppercase letter</div>
+                    <div class="form_input-error-message form-hidden error_password_numberOfCharacters_login">password
+                        must include only 8 characters</div>
+                    <div class="form_input-error-message form-hidden error_password_oneDigitAtLeast_login">password must
+                        include one digit at least</div>
+                    <div class="form_input-error-message form-hidden error_password_specialLetters_login">password must
+                        include special letters</div>
+                    <div class="form_input-error-message form-hidden error_password_spaces_login">password must not
+                        include spaces</div>
+                </div>
+                <button type="submit" class="form_button button_for_login">Submit</button>
+                <p class="form_text">
+                    <a class="form_link" href="" id="linkCreateAccount">Don't have an account? create account </a>
+                    <br>
+                    <a href="main page.html" class="form_link">If you want to continue without email?</a>
+                </p>
+            </form>
+            <!-- End login page  -->
+            <!--__________________________________________________________________________________________________________________-->
+            <!-- Start Sign Up page  -->
+            <form class="form form-hidden" id="createaccount" action="">
+                <h1 id="form_title">Create Account</h1>
+                <div class="form_input-group">
+                    <input type="text" class="form_input first_name" name="first_name_signup" placeholder="First name">
+                    <div class="form_input-error-message form-hidden error_first_name_requirement">This field is
+                        required</div>
+                    <div class="form_input-error-message form-hidden error_first_name">This field is required</div>
+                </div>
+
+                <div class="form_input-group">
+                    <input type="text" class="form_input last_name" name="last_name_signup" placeholder="Last name">
+                    <div class="form_input-error-message form-hidden error_last_name_requirement">This field is required
+                    </div>
+                </div>
+
+                <div class="form_input-group">
+                    <input type="text" class="form_input email_address" name="email_signup" placeholder="Email Address">
+                    <div class="form_input-error-message form-hidden error_email_address_requirement">This field is
+                        required</div>
+                    <div class="form_input-error-message form-hidden error_email_address_pattern">Sorry, your email
+                        input isn't correct,<br>Please follow this pattern:<br>
+                        "name_namefourdigits@feng.bu.edu.eg"</div>
+                </div>
+
+                <div class="form_input-group">
+                    <input type="text" class="form_input phone_number" name="phone_number_signup"
+                        placeholder="Mobile Phone Number">
+                    <div class="form_input-error-message form-hidden error_phone_number">there is a problem,please enter
+                        a number<br> that consists of only eleven digits</div>
+                    <div class="form_input-error-message form-hidden error_phone_number_requirement">This field is
+                        required</div>
+                </div>
+
+                <div class="form_input-group">
+                    <input type="text" class="form_input address_addresss" name="address_signup" placeholder="Address">
+                    <div class="form_input-error-message form-hidden error_address_requirement">This field is required
+                    </div>
+                </div>
+
+                <div class="form_input-group gender_field_div">
+                    <div class="theselection">
+                        <select name="gender" id="select_tag_gender">
+                            <option value="">Gender</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                        </select>
+                    </div>
+                    <div class="form_input-error-message form-hidden error_gender_requirement">This field is
+                        required,<br>Please select an option from options shown above.</div>
+                </div>
+
+                <div class="form_input-group">
+                    <input type="password" class="form_input password" name="password_signup" placeholder="Password">
+                    <div class="form_input-error-message form-hidden error_password_requirement">This field is required
+                    </div>
+                    <div class="form_input-error-message form-hidden error_password_uppercase">Password must start with
+                        uppercase letter</div>
+                    <div class="form_input-error-message form-hidden error_password_numberOfCharacters">password must
+                        include only 8 characters</div>
+                    <div class="form_input-error-message form-hidden error_password_oneDigitAtLeast">password must
+                        include one digit at least</div>
+                    <div class="form_input-error-message form-hidden error_password_specialLetters">password must
+                        include special letters</div>
+                    <div class="form_input-error-message form-hidden error_password_spaces">password must not include
+                        spaces</div>
+                </div>
+
+                <div class="form_input-group">
+                    <input type="password" class="form_input confirm_password" name="confirm_password_signup"
+                        placeholder="Confirm Password">
+                    <div class="form_input-error-message form-hidden error_confirm_password_requirement">This field is
+                        required</div>
+                    <div class="form_input-error-message form-hidden error_password_matching">The password and confirm
+                        password don't match</div>
+                </div>
+
+                <button type="submit" class="form_button button_for_signup">Sign up</button>
+                <p class="form_text">
+                    <a class="form_link" href="" id="linklogin">Already have an account? Sign in.</a>
+                    <br>
+                    <a href="main page.html" class="form_link">If you want to continue without email?</a>
+                </p>
+            </form>
+            <!-- End Sign Up page  -->
+        </div>
+    </div>
+    <!-- End login and sign up page-->
+    <script src="main.js">
+
+    </script>
+</body>
+
+</html>

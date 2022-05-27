@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    font-size: 17px;
+}
+
+#welcome {
+    color: rgb(225, 225, 225);
+    background-image: url(img/pexels-pixabay-247676.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    text-align: center;
+}
+
+#welcome h1 {
+    font-size: 57px;
+    line-height: 1.2;
+    font-family: 'Lora', serif;
+    margin-bottom: 2.5rem;
+    letter-spacing: 5px;
+}
+
+#welcome p {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Lora', serif;
+    letter-spacing: 2px;
+}
+
+#welcome .button {
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(225, 225, 225);
+    border: solid 2px rgb(225, 225, 225);
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    transition: background-color 0.1s, border-color 0.1s;
+}
+
+#welcome .button:hover {
+    background-color: rgb(5, 42, 72);
+    color: rgb(225, 225, 225);
+    border-color: rgb(5, 42, 72);
+}
+
+#hepardiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+#hepardiv>div {
+    margin: 20px 20px;
+}
+
+#kilog {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    max-width: 400px;
+    min-height: 450px;
+    background-color: rgb(225, 225, 225);
+    color: rgb(0, 0, 0);
+    margin: 1rem;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.form-hidden {
+    display: none;
+}
+
+.container,
+.form_input,
+.form_button {
+    font: 500 1rem sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form>*:first-child {
+    margin-top: 0;
+}
+
+.form>*:last-child {
+    margin-bottom: 0;
+}
+
+#form_title {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.form_message {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.form_message-error {
+    color: red;
+}
+
+.form_message-success {
+    color: green;
+}
+
+.form_input-group {
+    margin-bottom: 1rem;
+}
+
+.form_input {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    border-radius: 8px;
+    outline: none;
+}
+
+.form_input {
+    background-color: rgb(192, 192, 192);
+    border: solid 2px rgb(225, 225, 225);
+    transition: background-color 0.2s, border-color 0.2s;
+}
+
+.form_input:focus {
+    background-color: rgb(225, 225, 225);
+    border-color: rgb(3, 61, 109);
+}
+
+.form_input-error {
+    color: rgb(225, 0, 0);
+    border-color: rgb(225, 0, 0);
+}
+
+.form_input-error-message {
+    margin-top: 0.5rem;
+    font-size: 0.85rem;
+    color: rgb(225, 0, 0);
+}
+
+.form_button {
+    width: 100%;
+    padding: 1rem 2rem;
+    font-weight: bold;
+    font-size: 1.1rem;
+    background-color: rgb(3, 61, 109);
+    color: rgb(225, 225, 225);
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+}
+
+.form_button:hover {
+    background-color: rgb(3, 42, 75);
+}
+
+.form_button:active {
+    transform: scale(0.98);
+}
+
+.form_text {
+    text-align: center;
+    margin-top: 2.5rem;
+}
+
+.form_link {
+    text-decoration: none;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+}
+
+.form_link:hover {
+    text-decoration: underline;
+    color: rgb(3, 61, 109);
+}
+
+.gender_field_div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.theselection {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    padding: 0.45rem;
+    border-radius: 8px;
+    outline: none;
+    background-color: rgb(192, 192, 192);
+    border: none;
+
+}
+
+.theselection select {
+    background-color: rgb(192, 192, 192);
+    border: none;
+    width: 100%;
+    padding: 10px 0;
+    font-size: 1.1rem;
+    color: rgb(98, 98, 98);
+}
